@@ -1,6 +1,3 @@
-Link para download do Git: https://git-scm.com/download/win
-O Git Bash é um terminal estendido para otimizar o uso do Git. 
-
 Comandos importantes do prompt do Windows
 Listar arquivos e pastas - dir 
 limpar tela - cls
@@ -10,6 +7,9 @@ Criar pasta - mkdir e o nome da pasta
 Criar arquivo - já na pasta onde o arquivo será criado escreve: nome da pasta>echo>nome e extensão do arquivo
 Deletar pasta - rmdir
 Deletar arquivos - del e o nome e extensão do arquivo 
+
+Link para download do Git: https://git-scm.com/download/win
+O Git Bash é um terminal estendido para otimizar o uso do Git
 
 Comandos importantes do Git 
 Listar o que tem na pasta - ls
