@@ -2,27 +2,27 @@ Link para download do Git: https://git-scm.com/download/win
 O Git Bash é um terminal estendido para otimizar o uso do Git. 
 
 Comandos importantes do prompt do Windows
-Listar diretórios - dir 
+Listar arquivos e pastas - dir 
 limpar tela - cls
 Entrar em alguma pasta - cd e o nome da pasta
 Sair de alguma pasta - cd ..
 Criar pasta - mkdir e o nome da pasta 
-Criar arquivo - já na pasta onde o arquivo será criado escreve: nome da pasta>echo>hello.txt
-Deletar pasta: rmdir
+Criar arquivo - já na pasta onde o arquivo será criado escreve: nome da pasta>echo>nome e extensão do arquivo
+Deletar pasta - rmdir
+Deletar arquivos - del e o nome e extensão do arquivo 
 
 Comandos importantes do Git 
-Gerar sha1 - openssl sha1
 Listar o que tem na pasta - ls
 Listar arquivos ocultos - ls -a 
 Inicializar no Git (criar repositório) - git init
 Limpar tela - ctrl l 
-Adicionar - git add nome
-Adicionar todas as alterações novas - git add . 
+Adicionar - git add nome do arquivo
+Adicionar todos os arquivos modificados - git add*
 Comitar - git commit -m "" entre aspas adiciona um texto
 Saber o status - git status
 Colocar um arquivo dentro de uma pasta - mv nome do arquivo a ser movido incluindo a extensão ./nome da pasta que o arquivo vai
 Listar configurações - git config --list 
 Listar os repositórios cadastrados no GitHub - git remote -v
-Empurar para o GitHub - git push origin e o nome da branch 
-Puxar o que está no GitHub para minha máquina - git pull origin e o nome da branch 
+Empurar para o GitHub - git push nome do remote (ex. origin) e o nome da branch (ex. main) 
+Puxar o que está no GitHub para minha máquina - git pull nome do remote (ex. origin) e o nome da branch (ex. main)
 Clonar repositório do GitHub - git clone e o link do repositório
